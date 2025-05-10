@@ -1,0 +1,257 @@
+body {
+    background-color:black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  Estilo base dos blocos
+  header, nav, footer, .overlay {
+    background-color: rgb(0, 0, 0);
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px #f7b40d;
+  }
+  
+  Cabeçalho 
+  .header {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #f8f3f3;
+  }
+  
+  Navegação
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f5ecec;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  nav a:hover {
+    margin: 10px;
+    background-color: #f7b40d;
+    color: #f4f5ef;
+  }
+  
+  Barra de busca
+  .search-bar {
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+  }
+  
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .produto {
+    background-color: #fff;
+    border: 1px solid #dddddd00;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+  }
+  
+  .produto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto img {
+   width: 100%;
+    border-radius: 8px;
+  }
+  
+  .btn-comprar {
+    margin-top: 10px;
+    background-color: #ffc107;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #e0a800;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fffbfb;
+    margin-top: 2rem;
+  }
+  
+  
+  .carousel img {
+    border-radius: 12px;
+    max-height: 700px;
+    object-fit: cover;
+  }
+  .top-header {
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    top: 0;
+    z-index: 1000;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  .logo {
+    height: 100px; 
+    width: auto;
+  }
+   .login, .carrinho {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+   .carrinho i, .login i {
+        margin-right: 10px;
+      }
+   .top-bar {
+      position: fixed;
+      top: 0;
+       right: 0;
+       width: auto;
+      background-color: rgb(0, 0, 0);
+      padding: 20px 40px;
+      display: flex;
+      text-align: right;
+      gap: 15px;
+      border-radius: 10px;
+      
+  }
+  
+  
+  /*smartwatch*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f7;
+  }
+.header {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #f8f3f3;
+  }
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+.top-header {
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 3px 6px rgba(14, 13, 13, 0.1);
+    top: 0;
+  
+  }
+nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+  }
+.modelos {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 10rem;
+  }
+
+ /* para tornar os cards responsivos*/
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  /* faz um zoom ao passar o mouse nos produtos*/
+.relogio:hover  {
+    transform: scale(1.1);
+  }
+
+.relogio {
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(3, 3, 3, 0.171);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.relogio img {
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+.relogio h2 {
+   font-size: 20px;
+   margin: 10px 0 5px 0;
+  }
+.relogio p {
+   flex-grow: 1;
+   font-size: 15px;
+   margin-bottom: 10px;
+  }
+
+.relogio .price {
+   font-weight: bold;
+   margin-bottom: 10px;
+  }
+.relogio .preço {
+    color: #000000;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif
+  }
+.buy-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    transition: background-color 0.3s;
+  }
+.buy-btn:hover {
+    background-color: #e0a800;
+  }
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fffbfb;
+    margin-top: 2rem;
+  }
