@@ -1,14 +1,13 @@
-// js/login.js
-document.getElementById('loginForm').addEventListener('submit', function (e) {
-  e.preventDefault();
-  const login = document.getElementById('login').value;
-  const senha = document.getElementById('senha').value;
+function validarLogin() {
+  const usuario = document.getElementById('usuario').value.trim();
+  const senha = document.getElementById('senha').value.trim();
 
-  // Verificação simples (em produção, isso vem de um backend)
-  if (login && senha) {
-    localStorage.setItem('usuarioLogado', login);
-    window.location.href = 'principal.html';
-  } else {
-    document.getElementById('mensagemLogin').textContent = 'Login ou senha inválidos.';
+  if (!usuario || !senha) {
+    alert('Por favor, preencha todos os campos.');
+    return false;
   }
-});
+
+  // Aqui você pode implementar a lógica de autenticação real
+  alert('Login enviado!'); 
+  return true;
+}
