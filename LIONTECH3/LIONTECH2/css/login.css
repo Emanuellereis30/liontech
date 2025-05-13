@@ -1,4 +1,4 @@
- @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .menu {display: none;}
 }
 body {
@@ -19,7 +19,7 @@ body {
   background-color: #111;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 0 20px gold;
+  box-shadow: 0 0 20px #ffcc00;
   width: 100%;
   max-width: 400px;
   color: white;
@@ -31,11 +31,11 @@ body {
 }
 
 .login-card .brand {
-  color: gold;
+  color: #ffcc00;
 }
 
 .btn-warning {
-  background-color: gold;
+  background-color: #ffcc00;
   border: none;
   color: black;
   font-weight: bold;
