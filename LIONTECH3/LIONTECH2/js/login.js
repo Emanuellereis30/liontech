@@ -11,3 +11,7 @@ function validarLogin() {
   alert('Login enviado!'); 
   return true;
 }
+
+function voltarPagina() {
+    history.back();
+  }
