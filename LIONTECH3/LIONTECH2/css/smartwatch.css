@@ -4,27 +4,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f7;
   }
-.header {
-    text-align: right;
-    font-size: 0.9rem;
-    color: #f8f3f3;
-  }
-header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-.top-header {
-    background-color: #000000;
-    padding: 10px 20px;
-    box-shadow: 0 3px 6px rgba(14, 13, 13, 0.1);
-    top: 0;
-  
-  }
-nav a {
-    color: white;
-    margin-left: 1.5rem;
-    text-decoration: none;
-  }
 .modelos {
     max-width: 1200px;
     margin: 2rem auto;
