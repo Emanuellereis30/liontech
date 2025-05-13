@@ -1,3 +1,6 @@
+ @media (max-width: 768px) {
+    .menu {display: none;}
+}
 body {
      background-color: black;
      font-family: Arial, sans-serif;
@@ -11,7 +14,7 @@ body {
     background-color: #111;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 20px #f7b40d;
+    box-shadow: 0 0 20px #ffcc00;
     color: white;
     }
 h2 {
@@ -20,7 +23,7 @@ h2 {
     margin-bottom: 20px;
     }
 h2 .brand{
-    color: #f7b40d;
+    color: gold;
 }
 
 input, select {
@@ -32,7 +35,7 @@ input, select {
     font-size: 16px;
     }
 button {
-    background-color: #f7b40d;
+    background-color: #ffcc00;
     color: black;
     padding: 10px;
     width: 100%;
@@ -44,7 +47,7 @@ button {
     }
     
 button:hover{
-    background-color: #f4f74ee8;
+    background-color: #abad0b;
 }
 .message {
     display: none;
