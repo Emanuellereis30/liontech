@@ -1,3 +1,6 @@
+ @media (max-width: 768px) {
+    .menu {display: none;}
+}
 body {
   background-color: #ffffff;
   margin: 0;
@@ -16,7 +19,7 @@ body {
   background-color: #111;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 0 20px #f7b40d;
+  box-shadow: 0 0 20px gold;
   width: 100%;
   max-width: 400px;
   color: white;
@@ -28,11 +31,11 @@ body {
 }
 
 .login-card .brand {
-  color: #f7b40d;
+  color: gold;
 }
 
 .btn-warning {
-  background-color: #f7b40d;
+  background-color: gold;
   border: none;
   color: black;
   font-weight: bold;
@@ -44,16 +47,18 @@ body {
 }
 
 .btn-outline-light:hover {
-  background-color: white;
+  background-color: rgb(65, 64, 64);
   color: black;
 }
 
 .btn-outline-secondary {
-  color: #ccc;
-  border-color: #888;
+ border: 1px solid white;
+ color: white;
+ background-color: #111;
+ border-radius: 5px;
 }
 
 .btn-outline-secondary:hover {
-  background-color: #ddd;
+  background-color: rgb(65, 64, 64);
   color: black;
 }
