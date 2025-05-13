@@ -142,15 +142,20 @@ footer {
 .top-bar {
     position: fixed;
     top: 0;
-     right: 0;
-     width: auto;
+    right: 0;
+    width: auto;
     background-color: rgb(0, 0, 0);
-    padding: 20px 40px;
+    padding: 10px 16px;
     display: flex;
     text-align: right;
-    gap: 15px;
-    border-radius: 10px;
-    
+    gap: 10px;
+    border-radius: 5px;
+    z-index: 1000;    
 }
-
-
+.top-bar a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      padding: 8px;
+      border-radius: 5px;
+    }
