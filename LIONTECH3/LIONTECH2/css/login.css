@@ -16,7 +16,7 @@ body {
   background-color: #111;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 0 20px gold;
+  box-shadow: 0 0 20px #f7b40d;
   width: 100%;
   max-width: 400px;
   color: white;
@@ -28,11 +28,11 @@ body {
 }
 
 .login-card .brand {
-  color: gold;
+  color: #f7b40d;
 }
 
 .btn-warning {
-  background-color: gold;
+  background-color: #f7b40d;
   border: none;
   color: black;
   font-weight: bold;
@@ -57,5 +57,3 @@ body {
   background-color: #ddd;
   color: black;
 }
-
-
