@@ -10,6 +10,48 @@ body {
     padding: 0 10rem;
   }
 
+ .search-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.search-section form {
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px gold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 90%;
+  flex-wrap: wrap;
+}
+
+.search-section input[type="text"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  width: 250px;
+  max-width: 100%;
+  outline: none;
+}
+
+.search-section button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search-section button:hover {
+  background-color: gold;
+  color: black;
+}
+
  /* para tornar os cards responsivos*/
 .produtos {
     display: grid;
