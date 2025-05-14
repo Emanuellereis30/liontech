@@ -14,7 +14,7 @@ body {
     background-color: #111;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 20px #ffcc00;
+    box-shadow: 0 0 20px#f7b40d;
     color: white;
     }
 h2 {
@@ -23,7 +23,7 @@ h2 {
     margin-bottom: 20px;
     }
 h2 .brand{
-    color: gold;
+    color: #f7b40d;
 }
 
 input, select {
@@ -35,7 +35,7 @@ input, select {
     font-size: 16px;
     }
 button {
-    background-color: #ffcc00;
+    background-color: #f7b40d;
     color: black;
     padding: 10px;
     width: 100%;
@@ -47,7 +47,7 @@ button {
     }
     
 button:hover{
-    background-color: #abad0b;
+    background-color: #eff160;
 }
 .message {
     display: none;
