@@ -1,6 +1,6 @@
 Lion Tech
 
-é um projeto acadêmico desenvolvido para a faculdade com o objetivo de criar um site de e-commerce moderno para a venda de produtos Apple.
+É um projeto acadêmico desenvolvido para a faculdade com o objetivo de criar um site de e-commerce moderno para a venda de produtos Apple.
 O site permite aos usuários navegar pelos produtos, adicionar itens ao carrinho e visualizar um resumo de compra, tudo com uma interface moderna e responsiva.
 
 Este projeto foi desenvolvido como parte de atividades práticas de desenvolvimento web, aplicando conhecimentos de front-end.
